@@ -1,0 +1,12 @@
+name: SimplePvP
+version: 1.0.0
+main: local.simplepvp.SimplePvPPlugin
+api-version: '1.21'
+description: Combat tag and 1.8-style PvP tuning
+commands:
+  combattag:
+    description: Check your combat tag timer
+    usage: /combattag
+permissions:
+  simplepvp.bypass.combattag:
+    default: op

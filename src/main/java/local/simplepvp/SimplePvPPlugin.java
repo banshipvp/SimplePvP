@@ -29,4 +29,8 @@ public class SimplePvPPlugin extends JavaPlugin {
     public void onDisable() {
         getLogger().info("SimplePvP disabled.");
     }
+
+    public CombatTagManager getCombatTagManager() {
+        return combatTagManager;
+    }
 }

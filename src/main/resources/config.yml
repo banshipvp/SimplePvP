@@ -16,3 +16,4 @@ legacy-pvp:
   enabled: true
   attack-speed-base: 24.0
   reset-hit-immunity: true
+  sword-blocking: true
